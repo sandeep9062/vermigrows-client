@@ -5,7 +5,7 @@ import PhoneInput, {
   type Props,
 } from "react-phone-number-input";
 import "react-phone-number-input/style.css";
-import { Input } from "@mantine/core";
+import { Input } from "@/components/ui/input";
 
 const PhoneInputComponent = React.forwardRef<
   HTMLInputElement,
